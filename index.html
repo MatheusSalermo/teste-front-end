@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!-- ÍCONE DO SITE NO NAVEGADOR -->
+    <link rel="icon" type="imagem/png" href="./images/iconeNS.png" />
+
+     <!-- TÍTULO -->
+    <title>NINJA SOM</title>
+
+    <!-- LINKS DE CSS (após conversão do SCSS) -->
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/estilo.css">
+
+    <!-- FONTES DO GOOGLE -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap" rel="stylesheet">
+
+     <!-- IMPORT DOS ÍCONES -->
+     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+
+    <!-- INÍCIO DO HEADER -->
+    <header>
+        <!-- INÍCIO DO MENU RESPONSIVO -->
+        <div class="responsive-menu bg-second">
+            <a href="#" class="reponsiveMenu-logo">NINJA SOM</a>
+            <span class="mb-menu-toggle" id="mb-menu-toggle">
+                <i class='bx bx-menu'></i>
+            </span>
+        </div>
+        <!-- FIM DO MENU RESPONSIVO -->
+
+        <!-- INÍCIO DO MENU PRINCIPAL -->
+        <div class="header-wrapper" id="header-wrapper">
+            <span class="mb-menu-toggle mb-menu-close" id="mb-menu-close">
+                <i class='bx bx-x'></i>
+            </span>
+            <!-- INÍCIO DO MENU INICIAL -->
+            <div>
+                <nav class="primeiro-menu">
+                    <ul class="devided">
+                        <!-- ITEM 1 -->
+                        <li>
+                            <i class='bx bx-lock-alt'></i>
+                            <a href="#">Compra 100%</a>
+                          </li>
+
+                          <!-- ITEM 2 -->
+                          <li>
+                            <i class='bx bx-transfer-alt'></i>
+                            <a href="#">1 Troca Grátis</a>
+                          </li>
+                         
+                          <!-- ITEM 3 -->
+                          <li>
+                            <i class='bx bxs-message-alt-x'></i>
+                            <a href="#">5x Sem Juros</a>
+                          </li>
+                         
+                          <!-- ITEM 4 -->
+                          <li>
+                            <i class='bx bxs-truck' ></i>
+                            <a href="#">Entregas em todo o Brasil</a>
+                          </li>
+
+                    </ul>
+                </nav>
+            </div>
+            <!-- FIM DO MENU INICIAL -->
+
+            <!-- INÍCIO DO MID-MENU -->
+            <div class="bg-main">
+                <div class="mid-header container">
+                    <a href="#" class="logo"><img src="images/ninjasom.png" alt=""></a>
+                    <div class="search">
+                        <input type="text" placeholder="BUSQUE AQUI...">
+                        <i class='bx bx-search'></i>
+                    </div>
+                    <ul class="menu-icones">
+
+                        <li><a href="#"><i class='bx bxl-whatsapp' ></i></a></li>
+                            <div class="item-menu">
+                                <a href="#"> (11) 99999-9999 </a> 
+                            </div>
+
+
+                        <li><a href="#"><i class='bx bx-user'></i></a></li>
+                            <div class="item-menu"> 
+                                <a href="#">OLÁ, VISITANTE </a>
+                                <br>
+                                    <a href="#" style= "font-size: 10px">MINHA CONTA</a>
+                            </div>
+
+                        <li><a href="#"><i class='bx bx-shopping-bag'></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- FIM DO MID-MENU -->
+
+            <br>
+            <!-- INÍCIO DO MENU DE CATEGORIAS -->
+            <div class="bg-second">
+                <nav class="bottom-header container">
+                    <ul class="menu-categorias">
+                       
+                        <li> <a href="">Todas as categorias</a> </li>
+            
+                        <li> <a href="">Som Profissional</a> </li>
+            
+                        <li> <a href="">Instrumentos Musicais</a> </li>
+            
+                        <li> <a href="">Promoções</a> </li>
+            
+                        <li> <a href="">Contato</a> </li>
+    
+                    </ul>
+                </nav>
+            </div>
+            <!-- FIM DO MENU DE CATEGORIAS -->
+            
+        </div>
+        <!-- FIM DO MENU PRINCIPAL -->
+    </header>
+    <!-- FIM DO HEADER -->
+    
+    
+    <!-- INÍCIO DO CARROSSEL DE SLIDES -->
+    <div class="carousel">
+
+        <!-- SLIDE 1-->
+        <div data-js="carousel__item" class="carousel__item carousel__item--visible">
+            <div class="informacao">
+                <div class="textos-info" style="position: absolute;height: 100%; width: 40%; margin-left: 5%;">
+                    <p class="primeiro-texto"> NOVOS PRODUTOS </p>
+                    
+                    <h3 class="segundo-texto">
+                        <strong>INSTRUMENTOS</strong> 
+                         <br>
+                        PROFISSIONAIS 
+                    </h3>
+                    <p class="terceiro-texto"> CONFIRA </p>
+                </div>
+            </div>
+          <img src="./images/banner.png" />
+        </div>
+        <!-- FIM SLIDE 1-->
+    
+        <!-- SLIDE 2-->
+        <div data-js="carousel__item" class="carousel__item">
+            <div class="informacao">
+                <div class="textos-info" style="position: absolute;height: 100%; width: 40%; margin-left: 5%;">
+                    <p class="primeiro-texto"> NOVOS PRODUTOS </p>
+                    
+                    <h3 class="segundo-texto">
+                        <strong>INSTRUMENTOS</strong> 
+                         <br>
+                        PROFISSIONAIS 
+                    </h3>
+                    <p class="terceiro-texot"> CONFIRA </p>
+                </div>
+            </div>
+          <img src="./images/banner2.png" />
+        </div>
+        <!-- FIM SLIDE 2-->
+    
+        <div class="carousel__actions">
+          <button data-js="carousel__button--prev" aria-label="Slide anterior">
+            <
+          </button>
+    
+          <button data-js="carousel__button--next" aria-label="Próximo slide">
+            >
+          </button>
+        </div>
+      </div>
+    <!-- FIM DO CARROSSEL DE SLIDES -->
+
+    <!-- INÍCIO DA SESSÃO DE CATEGORIAS DE PRODUTOS -->
+    <section class="promotion">
+        <div class="row">
+            <div class="col-2 col-md-4 col-sm-12">
+                <div class="promotion-box">
+                    <img src="./images/guitarra.png" alt="" width="100%">
+                </div>
+                <div class="text">
+                    Guitarras Elétricas
+                </div>
+            </div>
+
+            <div class="col-2 col-md-4 col-sm-12">
+                <div class="promotion-box">
+                    <img src="./images/microfone.png" alt="" width="80%">
+                </div>
+                <div class="text" style="margin-left: 10%;">
+                    Microfones 
+                </div>
+            </div>
+
+
+            <div class="col-2 col-md-4 col-sm-12">
+                <div class="promotion-box">
+                    <img src="./images/mesaDeSom.png" alt="" width="100%">
+                </div>
+                <div class="text" style="margin-left: 10%;">
+                    Mesa de Som
+                </div>
+            </div>
+
+
+            <div class="col-2 col-md-4 col-sm-12">
+                <div class="promotion-box">
+                    <img src="./images/teclados.png" alt="" width="100%">
+                </div>
+                <div class="text" style="margin-left: 10%;">
+                    Teclados 
+                </div>
+            </div>
+
+
+            <div class="col-2 col-md-4 col-sm-12">
+                <div class="promotion-box">
+                    <img src="./images/violao.png" alt="" width="100%">
+                </div>
+                <div class="text" style="margin-left: 15%;">
+                    Violões 
+                </div>
+            </div>
+
+
+            <div class="col-2 col-md-4 col-sm-12">
+                <div class="promotion-box">
+                    <img src="./images/bateria.png" alt="" width="100%">
+                </div>
+                <div class="text" style="margin-left: 10%; margin-top: 7%;">
+                    Baterias 
+                </div>
+            </div>
+            
+            
+            </div>
+        </div>
+    </section>
+    <!-- FIM DA SESSÃO DE CATEGORIAS DE PRODUTOS -->
+
+    <!-- INÍCIO DA SESSÃO DE NOVIDADES -->
+    <div class="novidades-container">
+        <div class="row">
+            <div class="col-6 col-md-12 col-sm-12 novidades-1" style="padding: 0; margin: 0;">
+                  
+                <p>NOVIDADES</p>
+                <hr>
+                <br>
+                <h2><strong>ÁUDIO</strong></h2>
+                <h2>PROFISSIONAL</h2>
+                <br>
+                <button class="button-novidades">CONFIRA</button>
+        
+           </div>
+
+           <div class="col-6 col-md-12 col-sm-12 novidades-2"  style="padding: 0; margin: 0;">
+                  
+            <p>NOVIDADES</p>
+            <hr>
+            <br>
+            <h2 style="font-size:45px"><strong>INSTRUMENTOS</strong></h2>
+            <h2 style="margin-bottom: 8px;">MUSICAIS</h2>
+            <br>
+            <button class="button-novidades">CONFIRA</button>
+            </div>
+        </div>
+    </div>
+    <!-- FIM DA SESSÃO DE NOVIDADES -->
+   
+
+
+
+    <!-- INÍCIO DOS PRODUTOS EM DESTAQUE -->
+    <div class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Instrumentos<strong> Destaque </strong></h2>
+                <p>it is a long established fact that a reader will be destracted by the readable</p>
+            </div>
+            <div class="row latest-products" id="latest-products">
+            </div>
+                <div class="section-footer">
+                <a href="#" class="btn-flat btn-hover">VER MAIS</a>
+                </div>
+            </div>
+        </div> 
+    </div>
+    <!-- FIM DOS PRODUTOS EM DESTAQUE -->
+
+      <!-- INÍCIO MODAL DO PRODUTO -->
+      <div class="modal-container" id="modal-produto">
+        <div class="modal">
+            <div class="modal-img">
+                <img src="./images/modulo de bateria.png" alt="">
+            </div>
+
+            <div class="modal-text">
+                <span class="fechar">X</span>
+                <h3>Módulo para Bateria Holland</h3>
+                <br>
+                <h2>R$ 1499,90</h2>
+                <br>
+                <p>Many desktop publishing packages and web page editors now many desktop publishing</p>
+                <br>
+                <a href="#">Veja mais detalhes do produto ></a>
+                <br>
+                <button><b>Adicionar ao carrinho</b></button>
+            </div>
+        </div>
+    </div>
+    <!-- FIM MODAL DO PRODUTO -->
+
+    <!-- INÍCIO TEXTO DE EMPRESAS PARCEIRAS -->
+    <div class="bg-second">
+        <div class="section container">
+            <div class="row" style="text-align: center;">
+                <div class="col-12 col-md-12 col-sm-12">
+                    <div class="sp-item-info">
+                        <div class="sp-item-name">As <strong> Melhores </strong> Marcas  </div>
+                        <p class="sp-item-description" style="text-align: center; color: gray;  letter-spacing: 3px; ">
+                            it is a long established fact that a reader will be destracted by the readable                        
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FIM TEXTO DE EMPRESAS PARCEIRAS -->
+
+    <!-- INÍCIO SESSÃO DE PARCEIROS -->
+    <section class="partners">
+        
+            <div class="col-3 col-md-6 col-sm-12 partners-img">
+                <img class="partners-img" src="./images/akg.png" alt="">
+            </div>
+
+            <div class="col-3 col-md-6 col-sm-12 partners-img">
+                <img class="partners-img" src="./images/roland.png" alt="">
+            </div>
+
+            <div class="col-3 col-md-6 col-sm-12 partners-img">
+                <img class="partners-img" src="./images/boss.png" alt="">
+            </div>
+
+            <div class="col-3 col-md-6 col-sm-12 partners-img">
+                <img class="partners-img" src="./images/shure.png" alt="">
+            </div>
+    </section>
+    <!-- FIM SESSÃO DE PARCEIROS -->
+
+    
+
+  
+
+
+    
+
+    <!-- INÍCIO SOBRE NÓS -->
+    <section class="bg-second">
+        <div class="section container">
+            <div class="row" style="text-align: center;">
+                <div class="col-12 col-md-12 col-sm-12">
+                    <div class="sp-item-info">
+                        <div class="sp-item-name" style="color: #041E50;"><strong>SOBRE NÓS</strong> </div>
+                        <p class="sp-item-description about-us-text" style="text-align: center;">
+                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web sites still in their infancy. Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web sites still in their infancy. Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web sites still in their infancy.                         
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FIM SOBRE NÓS -->
+
+    <!-- INÍCIO SESSÃO DO PROGRAMADOR  -->
+    <section class="comments">
+        <div class="comments-container" >
+          <div class="left-arrow">
+                <i class='bx bxs-chevron-left' undefined ></i>
+            </div>
+            <div class="main-comments-content">
+
+                <div class="person-comment">
+                    <div class="image-person-comment" >
+                        <img src="./images/matheus-salermo.jpeg" alt="" style="border-radius: 50%; width: 80%">
+                    </div>
+                    <div class="text-person-comment">
+                        <h3>Matheus Salermo</h3>
+                        <br>
+                        <h4>Front-End Developer</h4>
+                    </div>
+                </div>
+                <div class="comment-mensage">
+                    <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’.</p>
+                </div>
+            </div>
+                <div class="right-arrow">
+                    <i class='bx bxs-chevron-right'></i>
+                 </div>
+            </div>
+    </section>
+    <!-- FIM SESSÃO DO PROGRAMADOR -->
+
+
+ <!-- INÍCIO RODAPÉ -->
+    <footer>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-3 col-md-6">
+                    <h3 class="footer-head">INSTITUCIONAL</h3>
+                    <ul class="menu">
+                        <li><a href="#">QUEM SOMOS</a></li>
+                        <li><a href="#">NOSSAS LOJAS</a></li>
+                    </ul>
+                    <br>
+                    <h3 class="footer-head">ATENDIMENTO</h3>
+                    <ul class="menu">
+                        <li><a href="#">FALE CONOSCO</a></li>
+                        <li><a href="#">VENDAS@NINJASOM.COM.BR</a></li>
+                    </ul>
+                </div>
+                <div class="col-3 col-md-6">
+                    <h3 class="footer-head">AJUDA E SUPORTE</h3>
+                    <ul class="menu">
+                        <li><a href="#">POLÍTICAS DE PRIVACIDADE</a></li>
+                        <li><a href="#">POLÍTICAS DE TROCA</a></li>
+                        <li><a href="#">PRAZOS DE ENTREGA</a></li>
+                        <li><a href="#">TERMOS DE ENTREGA</a></li>
+                    </ul>
+                </div>
+                <div class="col-3 col-md-6">
+                    <h3 class="footer-head">FORMAS DE PAGAMENTO</h3>
+                    <ul class="menu">
+                        <li><a href="#"><img src="./images/formasDePagamento.png" alt="" ></a></li>
+                       
+                        
+                    </ul>
+
+                    <h3 class="footer-head">SEGURANÇA</h3>
+                    <ul class="menu">
+                        <li><a href="#"><img src="./images/certificates.png" alt="" width="180px"></a></li>
+                        
+                    </ul>
+                </div>
+                <div class="col-3 col-md-6 col-sm-12">
+                    <div class="contact">
+                        <div class="box-contato">
+                            <h3 style="color: #041E50;">ASSINE NOSSO NEWSLETTER E RECEBA NOVIDADES E PROMOÇÕES</h3>
+                            <br>
+
+                            <input type="text" class="inputNome" name="" id="" placeholder="SEU NOME">
+                            <br>
+
+                            <input type="text" class="inputEmail" name="" id="" placeholder="SEU EMAIL">
+                            <br>
+
+                            <button CLASS="btn-flat btn-hover" style="width:80%"> ENVIAR </button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FIM RODAPÉ -->
+
+    <!-- INÍCIO RODAPÉ FINAL -->
+    <div class="bottom-footer">
+        <p>NINJA SOM COMÉRCIO DE ELETRÔNICOS LTDA - 2012 - 2019, todos os direitos reservados. Rua Santa Ifigênia,<br> 556 560/562/564 - Santa Efigênia - CEP: 01.207-000 - São Paulo / SP - CNPJ 07.282.516/0001-15</p>
+        <img src="./images/econverse.png" alt="" width="6%">
+    </div>
+<!-- FIM RODAPÉ FINAL -->
+    
+  
+    <!-- SCRIPTS -->
+    <script src="./js/responsive-menu.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/carrosel.js"></script>
+    <script src="./js/modal.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</body>
+
+</html>
